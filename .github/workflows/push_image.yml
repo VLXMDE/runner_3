@@ -21,4 +21,6 @@ jobs:
             push: true
             tags: ${{ secrets.DOCKERHUB_USERNAME }}/dockergithub
 
-            
+# wfusr='VLXMDE'
+# wfrep='runner_3'            
+# gh api "repos/${wfusr}/${wfrep}/actions/runs/ID" -X DELETE
